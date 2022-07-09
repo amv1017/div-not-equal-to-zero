@@ -4,7 +4,6 @@ body {
 }
 
 .scene {
-  z-index: 0;
   display: block;
   position: absolute;
   top: 0px;
@@ -21,11 +20,28 @@ body {
 .header {
   color: #fff;
   font-size: 4rem;
-  position: absolute;
+  position: relative;
   font-weight: 700;
   left: 0; 
   right: 0;
   top: 0;
   bottom: 0;
   text-align: center;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 3rem;
+  } 
+}
+
+@media screen and (max-width: 512px) {
+  .header {
+    font-size: 1.75rem;
+  } 
 }
