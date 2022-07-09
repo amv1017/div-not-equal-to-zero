@@ -1,0 +1,31 @@
+body {
+  overflow: hidden;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.scene {
+  z-index: 0;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+  background: #000 url('http://www.x3dom.org/x3dom/example/texture/solarSystem/starsbg.png');
+}
+
+.header {
+  color: #fff;
+  font-size: 4rem;
+  position: absolute;
+  font-weight: 700;
+  left: 0; 
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}

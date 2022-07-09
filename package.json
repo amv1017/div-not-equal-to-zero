@@ -1,0 +1,14 @@
+{
+  "name": "div-not-equal-to-zero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/amv1017/div-not-equal-to-zero.git",
+  "author": "Alexander <dr.ambercat@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host"
+  },
+  "dependencies": {
+    "vite": "^2.9.14"
+  }
+}
